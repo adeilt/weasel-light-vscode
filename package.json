@@ -1,34 +1,38 @@
 {
-    "name": "tiny-light",
-    "displayName": "Tiny Light",
-    "description": "BEST FOR YOUR EYES!",
-    "version": "0.10.1",
-    "publisher": "luqimin",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/luqimin/tinylight-vscode"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "icon": "icon.png",
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Tiny Light",
-                "uiTheme": "vs",
-                "path": "./themes/tiny.json"
-            }
-        ]
-    },
-    "keywords": [
-        "tiny light",
-        "solarized",
-        "health",
-        "h5builder",
-        "green"
+  "name": "weasel-light",
+  "displayName": "Weasel Light",
+  "description": "Fork of Tiny Light with higher text contrast.",
+  "version": "0.0.1",
+  "publisher": "wil_langford",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeilt/weasellight-vscode"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Weasel Light",
+        "uiTheme": "vs",
+        "path": "./themes/weasel-light.json"
+      }
     ]
+  },
+  "keywords": [
+    "weasel light",
+    "tiny light",
+    "solarized",
+    "health",
+    "h5builder",
+    "green"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
 }
