@@ -11,6 +11,9 @@
   "engines": {
     "vscode": "^1.0.0"
   },
+  "scripts": {
+    "build": "vsce package"
+  },
   "icon": "icon.png",
   "categories": [
     "Themes"
@@ -33,6 +36,7 @@
     "green"
   ],
   "devDependencies": {
+    "@vscode/vsce": "^2.18.0",
     "prettier": "^2.8.4"
   }
 }
